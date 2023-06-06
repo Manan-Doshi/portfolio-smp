@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-color: rgb(1, 1, 69);
+  color: rgb(0 2 12);;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(43, 43, 111);
+  color: whitesmoke;
+}
+nav ul{
+  display: flex;
+  cursor: pointer;
+}
+nav ul li{
+  list-style: none;
+  margin: 0px 15px;
+}
+nav ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px 0px;
+  
+}   
+nav ul li a:hover{
+  background-color: rgba(245, 245, 245, 0.197);
+  color: lavender;
+  border-radius: 10px;
+}
+.left{
+  font-size: 1.5rem;
+  padding: 8px 0px;
+}
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 35px;
+  background-color: rgb(221, 214, 214);
+  border-radius: 5px;
+  box-shadow: 0 0 10px blueviolet;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.container h2:hover{
+  background-color: #264ba4;
+  color: whitesmoke;
+}
+
+.form-group {
+  margin-bottom: 4px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 95%;
+  padding: 9px;
+  background: #93909024;;
+  border: 1px solid #2725258b;
+  border-radius: 15px;
+  resize: vertical;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.button{
+  background-color: #264ba4;
+  color: white;
+  cursor: pointer;
+  width: 23vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px;
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(13, 13, 98);
+  font-weight: bold;
+}
+
+.icons{
+  margin: 0 39vw;
+  position: relative;
+  top: -20px;
+}
+.fa {
+  padding: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 3px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

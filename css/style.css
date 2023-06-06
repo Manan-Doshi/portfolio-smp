@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(1, 1, 69);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(43, 43, 111);
+}
+nav ul{
+    display: flex;
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 15px;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 0px;
+}   
+nav ul li a:hover{
+    background-color: rgba(245, 245, 245, 0.197);
+    color: lavender;
+    border-radius: 10px;
+}
+
+.left{
+    font-size: 1.5rem;
+    padding: 8px 0px;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.firstSection > div{
+    width: 45%;
+}
+.leftSection{
+    font-size: 2.5rem;
+    margin: 0 100px;
+}
+.leftSection .btn{
+    padding: 12px;
+    background: rgb(30, 30, 84);
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: -15px;
+}
+.leftSection .button{
+    padding: 20px;
+}
+.rightSection img{
+    width: 75%;
+    background-color: rgba(171, 90, 246, 0.467);
+    border: 6px solid;
+    border-image: linear-gradient(whitesmoke, #af24dd) 1;
+    animation: tech 2s ease-in infinite;
+}
+@keyframes tech {
+    50%{
+        border-image: linear-gradient(360deg, #f18137, #af24dd) 1;
+    }
+}
+.purple{
+    color: rgb(170, 90, 246);
+}
+
+#element{
+    color: rgb(170, 90, 246);
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1px;
+    margin: 30px 85px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    /* Responsive website */
+    justify-content: center;    /*All box in  center */
+    background-color:  rgb(59 9 97 / 57%);
+    border: 4px solid;
+    border-image: linear-gradient(#f2f0f378, rgba(171, 90, 246, 0.442)) 1;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.secondSection h1{
+    font-size: 1.7rem;
+    color: rgb(170, 90, 246);
+    padding: 15px 0;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    /* Responsive website */
+    justify-content: center;    /*All box in  center */
+    background-color:  rgb(59 9 97 / 57%);
+    border: 4px solid;
+    border-image: linear-gradient(#f2f0f378, rgba(171, 90, 246, 0.442)) 1;
+    animation: skills 1s ease-in infinite;
+}
+.thirdSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.thirdSection h1{
+    font-size: 1.7rem;
+    color: rgb(170, 90, 246);
+    padding: 15px 0;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    /* Responsive website */
+    justify-content: center;    /*All box in  center */
+    background-color:  rgb(59 9 97 / 57%);
+    border: 4px solid;
+    border-image: linear-gradient(#f2f0f378, rgba(171, 90, 246, 0.442)) 1;
+    animation: hobbies 1s ease-in infinite;
+}
+.fourthSection{
+    max-width: 80vw;
+    margin: auto;
+}
+.fourthSection h1{
+    font-size: 1.7rem;
+    color: rgb(170, 90, 246);
+    padding: 15px 0;
+}
+.grey{
+    color: gray;
+    font-size: 1.3rem;
+}
+
+.box1{
+    background-color: rgba(171, 90, 246, 0.467);
+    color: whitesmoke;
+    text-align: center;
+    height: 68px;
+    width: 160px;
+    padding: 0px 18px;
+    border-radius: 15px;
+    order: 1;
+    margin: 20px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .copy{
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+}

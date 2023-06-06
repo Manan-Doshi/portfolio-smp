@@ -1,0 +1,41 @@
+@media screen and (max-width: 450px) {
+nav {
+    flex-direction: column;
+}
+nav ul {
+    margin: 4px auto;
+}
+nav ul li a {
+    font-size: 15px;
+}
+.container {
+    max-width: 290px;
+}
+.icons {
+    margin: 0 145px;
+    display: flex;
+    justify-content: center;
+    }
+.button{
+    width: 52vw;
+
+}
+}
+
+@media screen and (max-width: 350px) {
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        margin: 4px auto;
+    }
+    nav ul li a {
+        font-size: 12px;
+    }
+    .container{
+        max-width: 200px;
+    }
+    .icons{
+        margin: 0 81px;
+    }
+}

@@ -1,0 +1,54 @@
+nav{
+    flex-direction: column;
+}
+nav ul{
+    margin: 4px auto;
+}
+nav ul li a{
+    font-size: 14px;
+}   
+.leftSection{
+    font-size: 1rem;
+    margin: 12px;
+}
+.rightSection img{
+    width: 150px;
+    margin: 5px;
+}
+.leftSection .btn{
+    padding: 4px;
+}
+main hr{
+    margin: 20px 25px;
+}
+.container1{
+    margin: -47px -2px;
+}
+.box1{
+    width: 60px;
+    margin: 10px 32px;
+}
+.secondSection h1{
+    padding: 26px 0;
+}
+.container2{
+    margin: -83px -2px;
+}
+.thirdSection h1{
+    padding: 68px 0px;
+}
+.fourthSection h1{
+    padding: 100px 0;
+}
+.container3{
+    margin: -110px -2px;
+}
+.copy{
+    margin: 91px 8px;
+}
+
+@media screen and (max-width: 400px) {
+    .box1{
+        width: 54px;
+    }
+}

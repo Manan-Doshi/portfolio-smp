@@ -1,0 +1,56 @@
+nav{
+    flex-direction: column;
+}
+nav ul{
+    margin: 4px auto;
+}
+nav ul li a{
+    font-size: 12px;
+}
+.leftSection{
+    font-size: 1rem;
+    margin: 12px;
+}
+.firstSection > div {
+    width: 45%;
+}
+.rightSection img{
+    width: 130px;
+    margin: 6px;
+}
+.rightSection img {
+    --s: 125px;   /* the size of the image */
+    --b: 4px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #4ECDC4; /* the color */
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.rightSection img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+}
+  
+.rightSection img + img {
+    border-radius: 50%;
+}
+.logo img {
+    width: 5%;
+    padding: 0 12px
+}
+.tools img {
+    width: 6%;
+    padding: 0 12px
+}
+.logos img {
+    width: 6%;
+    padding: 3px 12px;
+}
+.content{
+    max-width: 80vw;
+}
